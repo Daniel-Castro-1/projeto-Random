@@ -76,12 +76,5 @@ margin: auto;
         background-color: black;
     } 
 
-
-    @media screen  and (min-width: 900px)  {
-       img {
-            margin:100 100 100 50px;
-        }
-            
-    }
         
 
