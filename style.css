@@ -9,6 +9,8 @@ main{
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 section{
@@ -22,6 +24,12 @@ img{width: 584px;
 
 }
 
+.caixa-paragrafo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+
 p{
      width: 30;
      height: 40px;
@@ -29,8 +37,6 @@ p{
     font-size: 34px;
     line-height: 37.7px;
     color: #FFFFFF;
-    ;
-    margin-left: 180px;
     margin-top: 70px;
 }
 
@@ -43,7 +49,7 @@ input{width: 300px;
     font-size: 40px;
     font-weight: 500;
     line-height: 46.88px;
-    text-align: left;margin-right: 20px;
+    margin-right: 20px;
     color: #FFFFFF;
 
 
@@ -66,7 +72,6 @@ margin: auto;
         line-height: 2.5px;
         text-align: center;
         margin-top: 50px;
-        margin-left: 150px;
         margin-bottom: 70px;
         color: #FFFFFF;
         border-radius: 10px;
@@ -76,5 +81,18 @@ margin: auto;
         background-color: black;
     } 
 
+    
+
+     
+    @media screen and (max-width:  700px){
         
+        .caixa-input{display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            
+        }
+        
+    }
 
